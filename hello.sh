@@ -1,3 +1,6 @@
 #!/bin/bash
-
-echo "hello"
+foo1()
+{
+echo "hello"$1
+}
+foo1 brayden
